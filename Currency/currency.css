@@ -1,0 +1,29 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serifx;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    gap:5rem;
+    margin:2rem;
+}
+
+.conversion-container{
+    display: flex;
+    gap:5rem;
+}
+
+.grid{
+    display: flex;
+    flex-direction: row;
+    gap:5rem;
+}
+
+.result-grid{
+    display: flex;
+    gap:13rem;
+}

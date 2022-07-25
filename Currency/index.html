@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>currency-api</title>
+    <link rel="stylesheet" href="currency.css">
+</head>
+<body>
+    <div class="container">
+        <h3>Select the base currency and target currency to show the conversion rates</h3>
+        <div class="conversion-container">
+            <div class="grid">
+                <label for="base-currency">Base Currency:</label>
+                <select name="base-currency" id="base-currency">
+                    <option value="">Select Currency</option>
+                    <option value="USD">US Dollar</option>
+                    <option value="EUR">Euro</option>
+                    <option value="INR">Indian Rupee</option>
+                </select>
+            </div>
+            <div class="grid">
+                <label for="target-currency">Target Currency:</label>
+                <select name="target-currency" id="target-currency">
+                    <option value="">Select Currency</option>
+                    <option value="INR">Indian Rupee</option>
+                    <option value="EUR">Euro</option>
+                    <option value="USD">US Dollar</option>
+                </select>
+            </div>
+        </div>  
+        <div class="result-grid">
+            <p>1</p>
+            <p>=</p>
+            <p id="result">1</p>
+        </div>      
+    </div>
+    <script src="currency.js"></script>
+</body>
+</html>
